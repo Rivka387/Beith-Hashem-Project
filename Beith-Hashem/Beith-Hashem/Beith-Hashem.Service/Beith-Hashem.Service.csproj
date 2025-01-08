@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Beith_Hashem.Service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Beith-Hashem.Core\Beith-Hashem.Core.csproj" />
+    <ProjectReference Include="..\Beith-Hashem.Data\Beith-Hashem.Data.csproj" />
+  </ItemGroup>
+
+</Project>
