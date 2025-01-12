@@ -25,7 +25,7 @@ namespace Beith_Hashem.Service.Services
 
 
         readonly IMemberRepository _memberRepository;
-        public MemberService(IMemberRepository membRepository)
+        public  WorkerService(IMemberRepository membRepository)
         {
             _memberRepository = membRepository;
         }

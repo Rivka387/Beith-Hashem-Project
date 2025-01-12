@@ -26,8 +26,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IMemberService, WorkerService>();
+//builder.Services.AddScoped<IMemberService, WorkerService>();
 builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+builder.Services.AddScoped<IMemberService, MemberService>();
 builder.Services.AddSingleton<DataContext>();
 
 //builder.Services.AddDbContext<DataContex>(
